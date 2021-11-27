@@ -13,7 +13,7 @@ picture = cv2.imread("mx.jpg")
 # 2、获取图片长和宽的像素个数有多少个 长：h   宽：w
 h,w = picture.shape[:2]
 
-# 3、创建一张和当前图片大小一样的单通道图片
+# 3、创建一张和当前图片大小一样的单通道图片1
 picture_gray = np.zeros([h,w],picture.dtype)
 c,k = picture_gray.shape[:2]
 
